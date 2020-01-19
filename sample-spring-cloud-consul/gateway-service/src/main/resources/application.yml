@@ -31,6 +31,11 @@ spring:
             - Path=/product/**
           filters:
             - RewritePath=/product/(?<path>.*), /$\{path}
+  redis:
+    host: 198.211.45.149
+    port: 6379
+    password:
+    timeout: 500
 
 logging.level.com.netflix: DEBUG
     

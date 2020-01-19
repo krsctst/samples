@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: customer-service
+  cloud:
+    consul:
+      host: 198.211.45.149
+      port: 8500

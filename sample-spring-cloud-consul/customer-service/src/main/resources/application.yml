@@ -3,7 +3,7 @@ spring:
     name: customer-service
   cloud:
     consul:
-      host: 192.168.99.100
+      host: 198.211.45.149
       port: 8500
       
 logging:
